@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Asteroids "</string>
+    <string name="textoBotonJugar">Play</string>
+    <string name="textoBotonConfig">Setup</string>
+    <string name="textoBotonAcercaDe">About</string>
+    <string name="textoBotonSalir">Exit</string>
+    <string name="tituloAplicacion">"Asteroids "</string>
+</resources>
