@@ -12,6 +12,7 @@
         <activity
             android:name=".AcercaDeActivity"
             android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
