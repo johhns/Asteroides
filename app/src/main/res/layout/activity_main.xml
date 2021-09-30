@@ -65,6 +65,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="@color/secondaryDarkColor"
+        android:onClick="mostrarAcerdaDe"
         android:text="@string/textoBotonAcercaDe"
         android:textColor="@color/primaryTextColor"
         app:layout_constraintBottom_toTopOf="@+id/btnSalir"
