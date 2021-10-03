@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -15,12 +16,14 @@ public class MainActivity extends AppCompatActivity {
 
     Button btnAcercaDe, btnSalir ;
     Toolbar toolbar ;
+    Activity activity ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        activity = this ;
         toolbar = findViewById(R.id.toolbar_main);
         setSupportActionBar(toolbar);
 
@@ -28,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         btnAcercaDe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mostrarAcerdaDe( view );
+                startActivity(new Intent(view.getContext(), AcercaDeActivity.class));
             }
         });
 
@@ -53,14 +56,13 @@ public class MainActivity extends AppCompatActivity {
         int opcionSeleccionada = item.getItemId() ;
         switch ( opcionSeleccionada ) {
             case R.id.acercaDe:
-                mostrarAcerdaDe(null);
+                startActivity(new Intent(activity.getBaseContext(), AcercaDeActivity.class));
+                break;
+            case R.id.action_setting:
+                startActivity(new Intent(activity.getBaseContext(), PreferenciasActivity.class));
                 break;
         }
         return super.onOptionsItemSelected(item);
-    }
-
-    public void mostrarAcerdaDe(View v) {
-        startActivity(new Intent(v.getContext(), AcercaDeActivity.class));
     }
 
 
