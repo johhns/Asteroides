@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnAcercaDe, btnSalir , btnConfig ;
     Toolbar toolbar ;
     Activity activity ;
-    public static AlmacenPuntuacionesArray almacen = new AlmacenPuntuacionesArray()
+    public static AlmacenPuntuacionesArray almacen = new AlmacenPuntuacionesArray() ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,7 +52,8 @@ public class MainActivity extends AppCompatActivity {
         btnSalir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mostrarPreferencias(view);
+                //mostrarPreferencias(view);
+                startActivity(new Intent(activity.getBaseContext(), Puntuaciones.class));
             }
         });
 

@@ -13,6 +13,8 @@
         <entry key="..\:/Users/johhn/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/auto_complete_list.xml" value="0.20520833333333333" />
         <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.11018237082066869" />
+        <entry key="app/src/main/res/layout/activity_puntuaciones.xml" value="0.12092391304347826" />
+        <entry key="app/src/main/res/layout/elemento_vista.xml" value="0.12092391304347826" />
         <entry key="app/src/main/res/menu/menu_main.xml" value="0.14629629629629629" />
       </map>
     </option>
