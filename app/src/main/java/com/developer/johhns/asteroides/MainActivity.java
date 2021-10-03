@@ -3,14 +3,18 @@ package com.developer.johhns.asteroides;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.preference.PreferenceManager;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+
+import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -47,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         btnSalir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                finish();
+                mostrarPreferencias(view);
             }
         });
 
@@ -73,5 +77,12 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    public void mostrarPreferencias( View view ){
+        SharedPreferences pref =
+                PreferenceManager.getDefaultSharedPreferences(this);
+        String s = "música: "+ pref.getBoolean("musica",true)
+                +", gráficos: " + pref.getString("graficos","?");
+        Snackbar.make(view, s, Snackbar.LENGTH_LONG ).show();
+    }
 
 }
