@@ -14,7 +14,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnAcercaDe, btnSalir ;
+    Button btnAcercaDe, btnSalir , btnConfig ;
     Toolbar toolbar ;
     Activity activity ;
 
@@ -28,10 +28,18 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         btnAcercaDe = findViewById(R.id.btnAcercaDe);
+        btnConfig = findViewById(R.id.btnConfig);
         btnAcercaDe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(view.getContext(), AcercaDeActivity.class));
+            }
+        });
+
+        btnConfig.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(activity.getBaseContext(), PreferenciasActivity.class));
             }
         });
 
