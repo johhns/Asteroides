@@ -71,10 +71,10 @@ public class MainActivity extends AppCompatActivity {
         switch ( opcionSeleccionada ) {
             case R.id.acercaDe:
                 startActivity(new Intent(activity.getBaseContext(), AcercaDeActivity.class));
-                break;
+                return true;
             case R.id.action_setting:
                 startActivity(new Intent(activity.getBaseContext(), PreferenciasActivity.class));
-                break;
+                return true;
         }
         return super.onOptionsItemSelected(item);
     }

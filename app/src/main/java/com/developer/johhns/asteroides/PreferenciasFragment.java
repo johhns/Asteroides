@@ -16,12 +16,13 @@ public class PreferenciasFragment extends PreferenceFragmentCompat {
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         setPreferencesFromResource(R.xml.preferencias, rootKey);
-
+/*
         fragmentos.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener()
 
         {
             @Override
             public boolean onPreferenceChange (Preference preference, Object newValue){
+
                 int valor;
                 try {
                     valor = Integer.parseInt((String) newValue);
@@ -40,8 +41,11 @@ public class PreferenciasFragment extends PreferenceFragmentCompat {
                             Toast.LENGTH_SHORT).show();
                     return false;
                 }
+
+                return true ;
             }
         }  );
+        */
 
     }
 
