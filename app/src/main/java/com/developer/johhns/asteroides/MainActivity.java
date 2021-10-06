@@ -21,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
     Button btnAcercaDe, btnSalir , btnConfig ;
     Toolbar toolbar ;
     Activity activity ;
-    public static AlmacenPuntuacionesArray almacen = new AlmacenPuntuacionesArray() ;
+    //public static AlmacenPuntuacionesArray almacen = new AlmacenPuntuacionesArray() ;
+    public static AlmacenPuntuacionesFicheroInterno almacen = new AlmacenPuntuacionesFicheroInterno(this) ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
