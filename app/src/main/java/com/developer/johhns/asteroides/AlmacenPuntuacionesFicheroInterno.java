@@ -20,10 +20,9 @@ public class AlmacenPuntuacionesFicheroInterno implements AlmacenPuntuaciones {
 
     private static String FICHERO = "puntuaciones.txt";
     private Context context ;
-    ActivityMainBinding binding = MainActivity.binding ;
 
     public AlmacenPuntuacionesFicheroInterno() {
-        this.context = binding.vistaPrincipal.getContext() ;
+        this.context = MainActivity.binding.vistaPrincipal.getContext() ;
         guardarPuntuacion(1000, "Pepito Dominguez", new Date().getTime());
         guardarPuntuacion(2000, "Juan Perez",new Date().getTime());
         guardarPuntuacion(3000, "Jose Sanchez",new Date().getTime());
@@ -56,7 +55,7 @@ public class AlmacenPuntuacionesFicheroInterno implements AlmacenPuntuaciones {
                     result.add(linea);
                     n++;
                 }
-            } while (n < cantidad && linea != null);
+            } while (n < cantidad *10000 && linea != null);
             f.close();
         } catch (Exception e) {
             Log.e("Asteroides", e.getMessage(), e);
