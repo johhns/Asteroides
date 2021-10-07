@@ -6,4 +6,8 @@
     <string name="textoBotonAcercaDe">About</string>
     <string name="textoBotonSalir">Exit</string>
     <string name="tituloAplicacion">"Asteroids "</string>
+
+    <string name="textoAcercaDe">This program has been build as sample</string>
+    <string name="textoBuscar">Search</string>
+
 </resources>

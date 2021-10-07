@@ -6,6 +6,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.preference.PreferenceManager;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -14,20 +15,33 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import com.developer.johhns.asteroides.databinding.ActivityMainBinding;
 import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
 
+
+    public static ActivityMainBinding binding ;
     Button btnAcercaDe, btnSalir , btnConfig ;
     Toolbar toolbar ;
-    Activity activity ;
+    public  Activity activity ;
+    public   Context contexto ;
+    public static View vista_ppl ;
     //public static AlmacenPuntuacionesArray almacen = new AlmacenPuntuacionesArray() ;
-    public static AlmacenPuntuacionesFicheroInterno almacen = new AlmacenPuntuacionesFicheroInterno(this) ;
+    public static  AlmacenPuntuacionesFicheroInterno almacen  ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        //setContentView(R.layout.activity_main);
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+        activity  = this ;
+        contexto  = this.getBaseContext() ;
+        vista_ppl = findViewById(R.id.vista_principal);
+        almacen   = new AlmacenPuntuacionesFicheroInterno() ;
+
 
         activity = this ;
         toolbar = findViewById(R.id.toolbar_main);

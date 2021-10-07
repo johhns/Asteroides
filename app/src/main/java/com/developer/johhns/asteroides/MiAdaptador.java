@@ -10,14 +10,17 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Vector;
 
 public class MiAdaptador extends RecyclerView.Adapter<MiAdaptador.ViewHolder> {
 
 private LayoutInflater inflador ;
 private List<String> lista ;
 
-    public MiAdaptador(Context contexto, List<String> lista) {
+    //public MiAdaptador(Context contexto, List<String> lista) {
+    public MiAdaptador(Context contexto, ArrayList<String> lista) {
         this.lista = lista;
         inflador = (LayoutInflater) contexto.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
@@ -34,13 +37,13 @@ private List<String> lista ;
       holder.titulo.setText( lista.get(position) );
       switch ( Math.round( (float) Math.random() * 3 ) ){
           case 0:
-              holder.icono.setImageResource(R.drawable.ic_launcher_foreground);
+              holder.icono.setImageResource(R.drawable.asteroide1);
               break;
           case 1:
-              holder.icono.setImageResource(R.drawable.ic_launcher_foreground);
+              holder.icono.setImageResource(R.drawable.asteroide2);
               break;
           default:
-              holder.icono.setImageResource(R.drawable.ic_launcher_foreground);
+              holder.icono.setImageResource(R.drawable.asteroide3);
               break;
       }
     }

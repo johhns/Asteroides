@@ -12,13 +12,14 @@ public class Puntuaciones extends AppCompatActivity {
     private RecyclerView.LayoutManager layoutManager ;
     private MiAdaptador adaptador ;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_puntuaciones);
 
         rcvPuntos = findViewById( R.id.rvwPuntuaciones ) ;
-        adaptador = new MiAdaptador(this,MainActivity.almacen.listaPuntuaciones(10)) ;
+        adaptador = new MiAdaptador(this , MainActivity.almacen.listaPuntuaciones(10)) ;
         rcvPuntos.setAdapter(adaptador);
         layoutManager = new LinearLayoutManager(this) ;
         rcvPuntos.setLayoutManager(layoutManager);

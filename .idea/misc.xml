@@ -5,26 +5,42 @@
       <map>
         <entry key="..\:/Users/Juan/AndroidStudioProjects/Asteroides/app/src/main/res/drawable/boton.xml" value="0.37083333333333335" />
         <entry key="..\:/Users/Juan/AndroidStudioProjects/Asteroides/app/src/main/res/layout-land/activity_main.xml" value="0.26979166666666665" />
-        <entry key="..\:/Users/Juan/AndroidStudioProjects/Asteroides/app/src/main/res/layout/accessibility_service.xml" value="0.28307692307692306" />
         <entry key="..\:/Users/Juan/AndroidStudioProjects/Asteroides/app/src/main/res/layout/acercade.xml" value="0.340625" />
-        <entry key="..\:/Users/Juan/AndroidStudioProjects/Asteroides/app/src/main/res/layout/action_bar_display_options.xml" value="0.28307692307692306" />
         <entry key="..\:/Users/Juan/AndroidStudioProjects/Asteroides/app/src/main/res/layout/activity_main.xml" value="0.2346014492753623" />
-        <entry key="..\:/Users/Juan/AndroidStudioProjects/Asteroides/app/src/main/res/layout/activity_puntuaciones.xml" value="0.26875" />
-        <entry key="..\:/Users/Juan/AndroidStudioProjects/Asteroides/app/src/main/res/layout/buttons_1.xml" value="0.20989583333333334" />
-        <entry key="..\:/Users/Juan/AndroidStudioProjects/Asteroides/app/src/main/res/layout/elemento_vista.xml" value="0.26875" />
-        <entry key="..\:/Users/Juan/AndroidStudioProjects/Asteroides/app/src/main/res/layout/fragment_arguments.xml" value="0.20989583333333334" />
-        <entry key="..\:/Users/Juan/AndroidStudioProjects/Asteroides/app/src/main/res/layout/fragment_menu.xml" value="0.20989583333333334" />
-        <entry key="..\:/Users/Juan/AndroidStudioProjects/Asteroides/app/src/main/res/layout/resources_layout_reference.xml" value="0.20989583333333334" />
-        <entry key="..\:/Users/Juan/AndroidStudioProjects/Asteroides/app/src/main/res/menu/submenu.xml" value="0.20989583333333334" />
-        <entry key="..\:/Users/Juan/AndroidStudioProjects/Asteroides/app/src/main/res/xml/preferencias.xml" value="0.26875" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/drawable/shape_1.xml" value="0.2546875" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/layout-land/activity_main.xml" value="0.1140625" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/layout-land/fragment_layout.xml" value="0.121875" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/layout/accessibility_service.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/layout/action_bar_display_options.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/layout/action_bar_display_options_custom.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/layout/action_bar_navigation.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/layout/action_bar_tabs.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/layout/activity_animation.xml" value="0.21666666666666667" />
         <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/layout/activity_main.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/layout/activity_recreate.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/layout/alarm_controller.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/layout/buttons_1.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/layout/elemento_vista.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/layout/fragment_arguments.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/layout/fragment_layout.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/layout/fragment_menu.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/layout/link.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/menu/action_bar_settings_action_provider.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/menu/action_bar_share_action_provider.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/menu/actions.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/menu/camera_menu.xml" value="0.21666666666666667" />
         <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/menu/menu_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/menu/submenu.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/menu/title_icon.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/menu/title_only.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/menu/visible.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/xml/fragmented_preferences.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/xml/fragmented_preferences_inner.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/xml/preferences.xml" value="0.21666666666666667" />
         <entry key="..\:/Users/johhn/AndroidStudioProjects/Asteroides/app/src/main/res/xml/preferencias.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/johhn/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/auto_complete_list.xml" value="0.20520833333333333" />
         <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.11018237082066869" />
-        <entry key="app/src/main/res/layout/activity_puntuaciones.xml" value="0.12092391304347826" />
-        <entry key="app/src/main/res/layout/elemento_vista.xml" value="0.12092391304347826" />
         <entry key="app/src/main/res/menu/menu_main.xml" value="0.14629629629629629" />
       </map>
     </option>
