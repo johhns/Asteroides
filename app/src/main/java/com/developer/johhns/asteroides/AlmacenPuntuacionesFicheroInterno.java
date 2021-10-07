@@ -45,10 +45,11 @@ public class AlmacenPuntuacionesFicheroInterno implements AlmacenPuntuaciones {
         ArrayList<String> result = new ArrayList<String>();
         try {
             FileInputStream f = context.openFileInput(FICHERO);
-            BufferedReader entrada = new BufferedReader(
-                    new InputStreamReader(f));
+            BufferedReader entrada = new BufferedReader( new InputStreamReader( f ) );
+
             int n = 0;
             String linea;
+
             do {
                 linea = entrada.readLine();
                 if (linea != null) {
@@ -56,6 +57,7 @@ public class AlmacenPuntuacionesFicheroInterno implements AlmacenPuntuaciones {
                     n++;
                 }
             } while (n < cantidad *10000 && linea != null);
+
             f.close();
         } catch (Exception e) {
             Log.e("Asteroides", e.getMessage(), e);
